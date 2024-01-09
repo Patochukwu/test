@@ -1,0 +1,136 @@
+.section1{
+  /* border: 5px solid red; */
+  height: 5em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttondiv{
+  /* border: 5px solid red; */
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 0;
+  padding-left: 12em;
+}
+
+.login{
+  /* border: 5px solid blue; */
+  width: 40%;
+  height: 50%;
+  cursor: pointer;
+  display: flex;
+  align-content: space-between;
+}
+.signup{
+  /* border: 5px solid blue; */
+  width: 40%;
+  height: 50%;
+  display: flex;
+  border-radius: 10px;
+  background-color:  #E87A14;
+  justify-content: center;
+  color: white;
+  padding-top: 10px;
+  cursor: pointer;
+  border-color: #E87A14;
+}
+
+.brandname {
+  /* border: 5px solid pink; */
+  width: 25%;
+  height: 30%;
+  margin-top: 0%;
+  margin-left: 102px;
+  cursor: pointer;
+  font-family: palatino;
+}
+
+.navbar{
+  /* border: 5px solid yellow; */
+  position: relative;
+  display: flex;
+  height: 40%;
+  flex-direction: row;
+  width: 30em;
+  justify-content: center;
+  align-items: center;
+}
+
+.items{
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navitem{
+  list-style: none;
+  color: black;
+  cursor: pointer;
+  transition: 2s;
+  font-family: Manrope;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.section2{
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description1{
+  /* border: 5px solid salmon; */
+  height: 30%;
+  align-items: center;
+  width: 30em;
+  margin-top: 15em;
+  margin-left: 5em;
+}
+
+.tfashion{
+  /* border: 5px solid blue; */
+  width: 5px;
+  color: #44C3EBCC;
+  ;
+}
+
+.description2{
+  /* border: 5px solid blue; */
+  font-family: Poppins;
+font-size: 30px;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0.1em;
+text-align: left;
+height: fit-content;
+
+}
+
+.imgdiv{
+  /* border: 5px solid red; */
+  width: 80%;
+  height: 80%;
+
+}
+
+.photo{
+  border: 5px solid yellow;
+  height: 50%;
+  margin-bottom: 50px;
+  margin-left: 8em;
+}
+
+.buybutton{
+  /* border: 5px solid brown; */
+  border-radius: 10px;
+  background-color: #E87A14;
+  color: white;
+  width: 20%;
+  border-color: #E87A14;
+}
